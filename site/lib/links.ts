@@ -1,4 +1,4 @@
-export const GITHUB_URL = "https://github.com/jordankmars/eclose";
+export const GITHUB_URL = "https://github.com/jordankmars/eclosion";
 export const AUTHOR_URL = "https://jordanmars.dev";
 
 /** Spread onto links that leave the site, so they open in a new tab. */

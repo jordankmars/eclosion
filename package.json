@@ -12,13 +12,13 @@
 		"spring",
 		"shared-element-transition"
 	],
-	"homepage": "https://github.com/jordankmars/eclose#readme",
+	"homepage": "https://github.com/jordankmars/eclosion#readme",
 	"bugs": {
-		"url": "https://github.com/jordankmars/eclose/issues"
+		"url": "https://github.com/jordankmars/eclosion/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jordankmars/eclose.git"
+		"url": "git+https://github.com/jordankmars/eclosion.git"
 	},
 	"author": "Jordan Mars",
 	"license": "MIT",

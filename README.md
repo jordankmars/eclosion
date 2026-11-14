@@ -1,6 +1,6 @@
 # eclosion
 
-[![CI](https://github.com/jordankmars/eclose/actions/workflows/ci.yml/badge.svg)](https://github.com/jordankmars/eclose/actions/workflows/ci.yml)
+[![CI](https://github.com/jordankmars/eclosion/actions/workflows/ci.yml/badge.svg)](https://github.com/jordankmars/eclosion/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 > A dialog or popover that grows out of its trigger.
