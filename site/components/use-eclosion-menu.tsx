@@ -13,7 +13,8 @@ import { BoxIcon, CloseIcon } from "./icons";
 // which eclosion crossfades with the trigger near each end. Both look the same,
 // so the surface stays opaque and the trigger sits above it instead: the shape
 // grows and collapses as one, and only the label fades. Reduced motion keeps
-// eclosion's own fade.
+// eclosion's own fade. The trigger only rises above the portal layer while this
+// menu is in use, so it doesn't cover other eclosions like the mobile menu.
 const ink =
 	"bg-neutral-900 text-neutral-50 dark:bg-neutral-100 dark:text-neutral-900";
 const focus =
@@ -25,7 +26,7 @@ export function UseEclosionMenu() {
 	return (
 		<Eclosion.Root>
 			<Eclosion.Trigger
-				className={`${ink} ${focus} relative z-[10000] flex h-10 items-center gap-2 overflow-hidden rounded-xl px-4 text-[14px]/[1.5] font-medium transition-opacity duration-150 data-[state=open]:pointer-events-none data-[state=opening]:pointer-events-none`}
+				className={`${ink} ${focus} relative flex not-data-[state=closed]:z-[10000] h-10 items-center gap-2 overflow-hidden rounded-xl px-4 text-[14px]/[1.5] font-medium transition-opacity duration-150 data-[state=open]:pointer-events-none data-[state=opening]:pointer-events-none`}
 			>
 				<BoxIcon className="size-[15px]" />
 				Use Eclosion
